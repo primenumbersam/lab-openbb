@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Hello World",
+    "img": "",
+    "img_dark": "",
+    "img_light": "",
+    "description": "Hello World template",
+    "allowCustomization": true,
+    "tabs": {
+      "": {
+        "id": "",
+        "name": "",
+        "layout": [
+          {
+            "i": "hello_world",
+            "x": 0,
+            "y": 0,
+            "w": 12,
+            "h": 4,
+            "state": {
+              "params": {
+                "name": ""
+              }
+            }
+          }
+        ]
+      }
+    },
+    "groups": []
+  },
+  {
+    "name": "Macro Overview",
+    "img": "https://openbb.co/favicon.ico",
+    "img_dark": "",
+    "img_light": "",
+    "description": "Global Macroeconomic Indicators",
+    "allowCustomization": true,
+    "tabs": {
+      "": {
+        "id": "macro_tab",
+        "name": "Macro",
+        "layout": [
+          {
+            "i": "us_cpi",
+            "x": 0,
+            "y": 0,
+            "w": 12,
+            "h": 6,
+            "state": {
+              "params": {
+                "start_date": "2020-01-01"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "groups": []
+  }
+]

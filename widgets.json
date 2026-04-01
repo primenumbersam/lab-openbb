@@ -1,0 +1,43 @@
+{
+  "hello_world": {
+    "name": "Hello World",
+    "description": "A simple markdown widget that displays Hello World",
+    "category": "Hello World",
+    "type": "markdown",
+    "endpoint": "hello_world",
+    "gridData": {
+      "w": 12,
+      "h": 4
+    },
+    "source": "None",
+    "params": [
+      {
+        "paramName": "name",
+        "value": "",
+        "label": "Name",
+        "type": "text",
+        "description": "Enter your name"
+      }
+    ]
+  },
+  "us_cpi": {
+    "name": "US CPI Inflation (YoY)",
+    "description": "Consumer Price Index for All Urban Consumers (Year-over-Year % Change)",
+    "category": "Economy",
+    "type": "table",
+    "endpoint": "api/v1/us_cpi",
+    "gridData": {
+      "w": 12,
+      "h": 6
+    },
+    "params": [
+      {
+        "paramName": "start_date",
+        "label": "Start Date",
+        "type": "text",
+        "value": "2020-01-01",
+        "description": "YYYY-MM-DD"
+      }
+    ]
+  }
+}
