@@ -1,6 +1,6 @@
 # OpenBB Data Integration 가이드 (Multi-Backend)
 
-OpenBB Workspace에서 공식 OpenBB Platform API와 사용자가 정의한 Custom Backend를 동시에 활용하는 방법입니다.
+OpenBB Workspace 1) Sample Backend와 2) Custom Backend를 활용하는 방법.
 
 ---
 
